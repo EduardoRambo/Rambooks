@@ -1,12 +1,12 @@
 export const Images = {
-    quadrinho1: ('/images/quadrinho1.jpg'),
-    quadrinho2: ('/images/quadrinho2.jpg'),
-    quadrinho3: ('/images/quadrinho3.jpg'),
-    quadrinho4: ('/images/quadrinho4.jpg'),
-    quadrinho5: ('/images/quadrinho5.jpeg'),
-    sobrenos: ('/images/sobrenos.jpg'),
-    icone: ('/images/icone.png'),
-    logo: ('/images/logo.png'),
-    background: ('/images/background.png'),
-    bolha: ('/images/bolha.jpg')
+    quadrinho1: ('/images/quadrinho1.JPG'),
+    quadrinho2: ('/images/quadrinho2.JPG'),
+    quadrinho3: ('/images/quadrinho3.JPG'),
+    quadrinho4: ('/images/quadrinho4.JPG'),
+    quadrinho5: ('/images/quadrinho5.JPEG'),
+    sobrenos: ('/images/sobrenos.JPG'),
+    icone: ('/images/icone.PNG'),
+    logo: ('/images/logo.PNG'),
+    background: ('/images/background.PNG'),
+    bolha: ('/images/bolha.JPG')
 }
