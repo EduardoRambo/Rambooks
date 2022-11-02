@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.secao-home {
+    display: flex;
+    flex-direction: column;
+    background: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.secao-home p,
+h2 {
+    padding-left: 2%;
+    width: 33%;
+}
+
+.tamanhodiferente01 {
+    font-family: 'Woodchuck Light';
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.tamanhodiferente02 {
+    font-size: 116px;
+}
+
+@media only screen and (max-width: 1024px)  {
+    .secao-home {
+        background-image: none;
+        background-color: #FFBD59;
+    }
+
+    .secao-home p,
+    h2 {
+        width: 96%;
+        padding-left: 0;
+        text-align: center;
+        padding: 0 2%;
+    }
+    
+}

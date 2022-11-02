@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.rodape {
+    width: 100%;
+    background-color: #212121;
+    text-align: center;
+}
+
+.rodape address {
+    color: white;
+    padding: 25px 0;
+}

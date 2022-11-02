@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.secao-sobre-nos {
+  display: flex;
+  flex-direction: row;
+  background: #FFBD59;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.secao-sobre-nos figure {
+  width: 500px;
+  height: 30%;
+}
+
+.secao-sobre-nos img {
+  width: 100%;
+  height: 100%;
+}
+
+.secao-sobre-nos span {
+  text-align: center;
+  width: 33%;
+}
+
+.secao-sobre-nos p {
+  padding-top: 16px;
+}

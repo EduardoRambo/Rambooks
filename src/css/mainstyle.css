@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+section {
+  height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+  color: #212121;
+}
+
+@media only screen and (max-width: 1024px) {
+  #root {
+    position: fixed;
+    overflow: auto;
+    height: 100vh;
+  }
+
+}
