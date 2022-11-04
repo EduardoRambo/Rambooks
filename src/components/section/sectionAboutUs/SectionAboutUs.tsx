@@ -1,12 +1,12 @@
-import { Images } from "../../../imports"
 import './sectionaboutus.css'
+import sobrenos from "../../../assets/img/sobrenos.png"
 
 export function SectionAboutUs() {
     return (
         <section className="secao-sobre-nos" id="sobre-nos">
             <aside>
                 <figure>
-                    <img src={Images.sobrenos} alt="Foto com vários comics" />
+                    <img src={sobrenos} alt="Foto com vários comics" />
                 </figure>
             </aside>
             <span>

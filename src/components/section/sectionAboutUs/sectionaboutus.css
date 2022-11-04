@@ -27,3 +27,28 @@
 .secao-sobre-nos p {
   padding-top: 16px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .secao-sobre-nos figure {
+    width: 300px;
+  }
+
+  .secao-sobre-nos span {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 576px)  {
+
+  .secao-sobre-nos figure {
+    width: 200px;
+  }
+
+  .secao-sobre-nos p {
+    font-size: 16px;
+  }
+
+  .secao-sobre-nos span {
+    width: 50%;
+  }
+}

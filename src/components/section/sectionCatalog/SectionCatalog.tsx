@@ -1,13 +1,18 @@
-import { Images } from "../../../imports"
-
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Navigation, EffectFade, Pagination } from "swiper"
+import { Navigation, Pagination } from "swiper"
 
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/effect-fade'
 
 import './sectioncatalog.css'
+
+import quadrinho1 from "../../../assets/img/quadrinho1.png"
+import quadrinho2 from "../../../assets/img/quadrinho2.png"
+import quadrinho3 from "../../../assets/img/quadrinho3.png"
+import quadrinho4 from "../../../assets/img/quadrinho4.png"
+import quadrinho5 from "../../../assets/img/quadrinho5.png"
+
 
 export function SectionCatalog() {
     return (
@@ -28,27 +33,27 @@ export function SectionCatalog() {
                     className="mySwiper" >
                     <SwiperSlide>
                         <figure className="livros">
-                            <img src={Images.quadrinho1} alt="Título número um" />
+                            <img src={ quadrinho1 } alt="Título número um" />
                         </figure>
                     </SwiperSlide>
                     <SwiperSlide>
                         <figure className="livros">
-                            <img src={Images.quadrinho2} alt="Título número dois" />
+                            <img src={ quadrinho2 } alt="Título número dois" />
                         </figure>
                     </SwiperSlide>
                     <SwiperSlide>
                         <figure className="livros">
-                            <img src={Images.quadrinho3} alt="Título número três" />
+                            <img src={ quadrinho3 } alt="Título número três" />
                         </figure>
                     </SwiperSlide>
                     <SwiperSlide>
                         <figure className="livros">
-                            <img src={Images.quadrinho4} alt="Título número quatro" />
+                            <img src={ quadrinho4 } alt="Título número quatro" />
                         </figure>
                     </SwiperSlide>
                     <SwiperSlide>
                         <figure className="livros">
-                            <img src={Images.quadrinho5} alt="Título número cinco" />
+                            <img src={ quadrinho5 } alt="Título número cinco" />
                         </figure>
                     </SwiperSlide>
                 </Swiper>

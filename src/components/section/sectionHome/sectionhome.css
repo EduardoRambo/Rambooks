@@ -3,7 +3,7 @@
 .secao-home {
     display: flex;
     flex-direction: column;
-    background: url(/images/background.png);
+    background-image: url(../../../assets/img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -35,8 +35,33 @@ h2 {
     h2 {
         width: 96%;
         padding-left: 0;
-        text-align: center;
         padding: 0 2%;
     }
     
+}
+
+@media only screen and (max-width: 576px)  {
+
+    h2 .tamanhodiferente01 {
+        font-size: 28px;
+    }
+
+    .secao-home h2 {
+        font-size: 48px;
+    }
+
+    .tamanhodiferente02 {
+        font-size: 64px;
+    }
+
+    .secao-home p,
+    h2 {
+        width: 92%;
+        padding-left: 0;
+        padding: 0 4%;
+    }
+
+    .secao-home p {
+        font-size: 1.25rem;
+    }
 }

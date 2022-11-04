@@ -18,9 +18,14 @@ html {
 
 @media only screen and (max-width: 1024px) {
   #root {
-    position: fixed;
     overflow: auto;
     height: 100vh;
   }
 
+}
+
+@media only screen and (max-width: 576px)  {
+  #root {
+    overflow-x: hidden;
+  }
 }

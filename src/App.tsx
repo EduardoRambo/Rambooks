@@ -1,20 +1,19 @@
-import { Footer } from "./components/footer/Footer";
-import { Header } from "./components/header/Header";
-import { SectionHome } from "./components/section/sectionHome/SectionHome";
-import { SectionAboutUs } from "./components/section/sectionAboutUs/SectionAboutUs";
-import { SectionCatalog } from "./components/section/sectionCatalog/SectionCatalog";
+import { Route, Routes } from "react-router-dom";
 
 import "./css/fonts.css";
 import "./css/menuscrollbar.css";
 import "./css/mainstyle.css";
+import Home from "./view/home";
+import { Header } from "./components/header/Header";
+import { Footer } from "./components/footer/Footer";
 
 export default function App() {
   return (
     <div>
-      <Header />
-      <SectionHome />
-      <SectionCatalog />
-      <SectionAboutUs />
+      <Header></Header>
+      <Routes>
+        <Route path="/Rambooks/" element={<Home />}></Route>
+      </Routes>
       <Footer />
     </div>
   );

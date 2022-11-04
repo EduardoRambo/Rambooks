@@ -1,6 +1,7 @@
 import './header.css'
 import { FaBars, FaTimes } from "react-icons/fa";
 import { MutableRefObject, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 export function Header() {
   const navRef = useRef() as MutableRefObject<HTMLDivElement>;
@@ -18,7 +19,7 @@ export function Header() {
             <FaTimes />
           </button>
           <li>
-            <a className="botao-assinatura" href="#assinatura">FAÇA JÁ SUA ASSINATURA</a>
+            <a className="botao-assinatura" href="/Rambooks/signup">FAÇA JÁ SUA ASSINATURA</a>
           </li>
           <li>
             <a href="#sobre-nos">SOBRE NÓS</a>
