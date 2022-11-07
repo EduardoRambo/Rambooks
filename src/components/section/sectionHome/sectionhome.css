@@ -40,6 +40,28 @@ h2 {
     
 }
 
+@media only screen and (max-width: 1440px)  {
+    
+    .secao-home p,
+    h2 {
+        padding-left: 2%;
+        width: 50%;
+    }
+    
+
+    h2 .tamanhodiferente01 {
+        font-size: 32px;
+    }
+
+    .secao-home h2 {
+        font-size: 64px;
+    }
+
+    .tamanhodiferente02 {
+        font-size: 82px;
+    }
+}
+
 @media only screen and (max-width: 576px)  {
 
     h2 .tamanhodiferente01 {

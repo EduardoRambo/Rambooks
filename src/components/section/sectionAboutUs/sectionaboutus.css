@@ -28,6 +28,17 @@
   padding-top: 16px;
 }
 
+@media (max-width: 1440px) {  
+  .secao-sobre-nos figure {
+    width: 300px;
+  }
+
+  .secao-sobre-nos span {
+    width: 50%;
+  }
+}
+
+
 @media only screen and (max-width: 1024px) {
   .secao-sobre-nos figure {
     width: 300px;
